@@ -1,9 +1,9 @@
 # Hystrix Executor
-A Circuit breaker without code clutter.
+Wrapper for [Netflix's Hystrix implementation](https://github.com/Netflix/Hystrix) Circuit breaker without code clutter. W
 
-This wrapper bypasses the Command pattern enforced by Hystrix. You get all the goodies without littering the code.
+This attempts to bypass the Command pattern enforced by Hystrix. You get all the goodies without littering the code.
 
 
 # Variants
 
-You can choose the Aspect based variant, which supports run-time weaving or the Service based variant, which is more explicit.
+You can choose the aspect-based variant, which supports runtime weaving or the service-based variant, which is more explicit.
